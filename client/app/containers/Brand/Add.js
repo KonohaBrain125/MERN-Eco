@@ -9,7 +9,6 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 import actions from '../../actions';
-
 import AddBrand from '../../components/Manager/AddBrand';
 import SubPage from '../../components/Manager/SubPage';
 
