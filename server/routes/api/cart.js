@@ -11,7 +11,6 @@ router.post('/add', auth, async (req, res) => {
   try {
     const user = req.user._id;
     const items = req.body.products;
-
     const products = store.caculateItemsSalesTax(items);
 
     const cart = new Cart({
